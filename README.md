@@ -2,9 +2,9 @@
 Plantilla de Wordpress para La tele según Caamaño diseñada en 2016.
 
 ## Requerimientos
-*Bootstrap
-*jQuery
-*Superslides
-*PHP
+-Bootstrap<br>
+-jQuery<br>
+-Superslides<br>
+-PHP<br>
 
 http://www.lateleseguncaamano.com
