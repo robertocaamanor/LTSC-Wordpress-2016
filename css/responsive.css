@@ -1,0 +1,107 @@
+@media screen and (max-width: 1024px) {
+	footer .widget {
+		width: 50%;
+	}
+
+	.widget ul li {
+		border-bottom: 1px solid #610000;
+		padding: 5px 0;
+	}
+}
+
+@media (max-width: 768px) {
+	header label {
+		display: block;
+		float: right;
+	}
+
+	header .logo {
+		width: 20%;
+	}
+
+	header .logo img {
+		width: 100%;
+	}
+
+	.menu {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 100%;
+		transform: translateX(-100%);
+		transition: all 0.3s;
+		background-color: #5E0000;
+		display: block;
+	}
+
+	.menu a {
+		color: #FFFFFF;
+	}
+
+	.menu ul {
+		display: block;
+		text-align: left;
+	}
+
+	.menu ul.nav li {
+		display: block;
+	}
+
+	.menu ul li:hover ul {
+		display: none;
+		position: static;
+	}
+
+	.menu a span {
+		position: absolute;
+		right: 5px;
+	}
+
+	#btn-menu {
+		display: block;
+		width: 20%;
+		display: none;
+	}
+
+	#btn-menu:checked ~ .menu {
+		transform: translateX(0%);
+	}
+
+	#slides {
+		display: none;
+	}
+
+	#main #list-articles {
+		width: 100%;
+	}
+
+	#main #articles-single {
+		width: 100%;
+	}
+
+	#main aside {
+		width: 100%;
+		clear: both;
+	}
+
+	footer .widget {
+		margin-bottom: 40px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px){	
+	header .logo {
+		width: 40%;
+	}
+
+	header .logo img {
+		width: 100%;
+	}
+
+	#main #list-articles article .thumb {
+		width: 100%;
+		float: left;
+		margin-bottom: 20px;
+	}
+}
