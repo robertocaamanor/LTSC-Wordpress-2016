@@ -29,8 +29,6 @@ $("iframe[src*='www.facebook.com/plugins/post.php']").wrap('<div class="embed-re
 $("iframe[src*='www.facebook.com/plugins/post.php']").addClass('embed-responsive-item');
 $("iframe[src*='embed.spotify.com']").wrap('<div class="embed-responsive embed-responsive-16by9"/>');
 $("iframe[src*='embed.spotify.com']").addClass('embed-responsive-item');
-$(".twitter-video").wrap('<div class="embed-responsive embed-responsive-16by9"/>');
-$(".twitter-video").addClass('embed-responsive-item');
 </script>
 <script src="<?php bloginfo('template_url') ?>/js/menu.js"></script>
 <?php wp_footer(); ?>
